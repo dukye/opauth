@@ -7,13 +7,14 @@
  * @package      Opauth.OpauthTest
  * @license      MIT License
  */
-namespace Opauth\Request;
-use \PHPUnit_Framework_TestCase;
+namespace Opauth\Opauth\Test\Request;
+
+use Opauth\Opauth\Request\Parser;
 
 /**
  * OpauthTest class
  */
-class ParserTest extends PHPUnit_Framework_TestCase {
+class ParserTest extends \PHPUnit_Framework_TestCase {
 
 	/**
 	 * Setup

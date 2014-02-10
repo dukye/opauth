@@ -7,16 +7,16 @@
  * @package	  Opauth.OpauthStrategyTest
  * @license	  MIT License
  */
-namespace Opauth;
-use \PHPUnit_Framework_TestCase;
-use Opauth\Request\Parser;
-use Opauth\Strategy\Sample\Strategy;
+namespace Opauth\Opauth\Test;
+
+use Opauth\Opauth\Request\Parser;
+use Opauth\Opauth\Test\Strategy\Sample\Strategy;
 
 require_once dirname(__FILE__) . '/Strategy/Sample/Strategy.php';
 /**
  * OpauthTest class
  */
-class StrategyTest extends PHPUnit_Framework_TestCase {
+class StrategyTest extends \PHPUnit_Framework_TestCase {
 
 	public function setUp() {
 		$_SERVER['HTTP_HOST'] = 'test.example.org';
